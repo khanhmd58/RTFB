@@ -52,6 +52,7 @@ sudo pip install virtualenv
 sudo pip install cassandra-driver
 moi lan truy cap:
 export CQLSH_NO_BUNDLED=TRUE
+nodetool status
 cqlsh
 
 #cai dat pm2 chay nodejs tren server
